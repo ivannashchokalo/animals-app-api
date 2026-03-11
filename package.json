@@ -1,0 +1,32 @@
+{
+  "name": "animals-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ivannashchokalo/animals-app-api#readme",
+  "bugs": {
+    "url": "https://github.com/ivannashchokalo/animals-app-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivannashchokalo/animals-app-api.git"
+  },
+  "license": "ISC",
+  "author": "Ivanna Shchokalo <ivanka.m78@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server",
+    "start": "node src/server"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "celebrate": "^15.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "http-errors": "^2.0.1",
+    "mongoose": "^9.2.4"
+  }
+}
